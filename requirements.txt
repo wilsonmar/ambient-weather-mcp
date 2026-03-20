@@ -17,3 +17,10 @@ mcp[cli]>=1.2.0,<2.0.0
 # In Docker, env vars are passed via -e flags instead, so this
 # becomes a no-op. But it's convenient for local work.
 python-dotenv>=1.0.0,<2.0.0
+
+# --- HTTP Client ---
+# httpx is a modern async HTTP client. We use it instead of "requests" because:
+# 1. Our MCP tool handlers are async (required by FastMCP)
+# 2. Using a sync HTTP client inside an async handler blocks the event loop
+# 3. httpx has built-in timeout handling and is well-maintained
+httpx>=0.27.0,<1.0.0
