@@ -65,7 +65,7 @@ source venv/Scripts/activate    # Windows Git Bash
 pip install -r requirements.txt
 
 # Configure API keys
-cp .env.example .env
+cp .env.example ~/.env
 # Edit .env with your actual keys
 
 # Test the server
@@ -204,7 +204,7 @@ The server includes a 60-second TTL cache to stay within these limits automatica
 - [Ambient Weather API](https://ambientweather.docs.apiary.io/)
 - [Model Context Protocol](https://modelcontextprotocol.io/)
 - [FastMCP](https://github.com/jlowin/fastmcp)
-- Built by [Yaw (NGP-Dev)](https://github.com/NanaGyamfiPrempeh30)
+- Built by [Yaw Nana Gyamfi Prempeh](https://github.com/NanaGyamfiPrempeh30)
 - Wilson Mar — mentorship, weather station access, [MCP reference](https://wilsonmar.github.io/mcp/), [weather-info](https://wilsonmar.github.io/weather-info/)
 
 ## License
