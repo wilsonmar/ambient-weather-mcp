@@ -90,8 +90,8 @@ class AmbientWeatherClient:
 
     Usage:
         client = AmbientWeatherClient(
-            api_key=d6ab3f0d0f0046afbf9dbcc2c2c7fc025e351862d4804bcea3192c3a9e734f7c,
-            app_key=5ca27fa20eb84af6b38360c0db84f8b4e700b61436984b4a885c5e78e1c436c0,
+            api_key=8a039f8f70884f36b642b77c9d2c1b5df497a8c1f44f4b4e8fdf11c002ef2113,
+            app_key=18b910be9e4c483e8f516f337fa3b37663adb247932a436f8ddaf6569c6e6c96,
         )
 
         # List all stations
